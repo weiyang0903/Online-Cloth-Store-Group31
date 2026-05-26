@@ -1,0 +1,135 @@
+.one {
+    background-color: rgba(0, 0, 0, 0.85);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+}
+.one ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.one ul li {
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+}
+.one a {
+    color: white;
+    height: 40px;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding-bottom: 10px;
+}
+.one .bar:after
+{
+    content: " ";
+    position: absolute;
+    background-color: white;
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s ease;
+}
+.one .bar:hover:after
+{
+    width: 100%;
+}
+.one ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+}
+.one ul li:hover > ul {
+    display: block;
+}
+.slide
+{
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    top: 0;
+    margin-top: 14px;
+    right: 10px;
+    z-index: 1000;
+}
+.slide img
+{
+    transition: 0.5s;
+}
+.slide img:hover
+{
+    transform: rotate(45deg);
+}
+.slide ul
+{
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+}
+.slide ul li 
+{
+    padding: 10px;     
+}
+.slide a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+.user2
+{
+    width: 116px;
+    height: 100px;
+    position: fixed;
+    right: 15px;
+}
+.user
+{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1px;
+    top: 84px;
+    height: 100px;
+    width: 100px;
+}
+.user li
+{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+}
+.user li a
+{
+    color: white;
+}
+.slide .user2
+{
+    display: none;
+}
+.slide .user {
+display: none;
+}
+.slide ul li:hover .user2 {
+display: block;
+}
+.slide ul li:hover .user {
+display: block;
+}
+.slide ul li .user2 .user a:hover
+{
+text-decoration: underline;
+}
+.slide ul li .user2 .user li:hover
+{
+background-color: grey;
+}

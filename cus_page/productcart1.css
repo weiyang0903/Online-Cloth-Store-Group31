@@ -1,0 +1,33 @@
+.card1{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  min-width: 250px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  font-size: 15.5px;
+  flex: 0 0 auto;
+  overflow-wrap: break-word;
+  margin-left: 15px;
+}
+
+.price
+{
+  color: grey;
+  font-size: 22px;
+}
+.card1 .button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.card1 .button:hover {
+  background-color: rgb(70, 70, 70);
+}

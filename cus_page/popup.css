@@ -1,0 +1,136 @@
+.popup
+{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 60px;
+}
+
+.content
+{
+    background-color: #f8f8f8;
+    margin: 5% auto;
+    padding: 20px;
+    position: relative;
+    border: 1px solid #888;
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+.close
+{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pic
+{
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    background-color: #f8f8f8;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.desc
+{
+    margin-left: 250px;
+    height: 490px;
+    width: 630px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    background-image: url(../logo/630X500.jpg);
+    position: absolute;
+}
+.productname
+{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.title
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+.kongge
+{
+    margin-left: 20px;
+}
+.pid,.cateid
+{
+    font-size: 20px;
+}
+.popup form .quan
+{
+    position: absolute;
+    top: 380px;
+    margin-bottom: 10px;
+}
+.popup form .quan label
+{
+    font-size: 20px;
+    font-weight: 800;
+}
+.popup form .quan input
+{
+    height: 30px;
+    border-radius: 10px;
+}
+.popup form .sub
+{
+    background-color: rgb(91, 223, 91);
+    color: white;
+    height: 50px;
+    width: 120px;
+    border: none;
+    font-weight: 800;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 455px;
+    left: 525px;
+}
+.popup form .sub:hover
+{
+background-color: rgb(0, 219, 0);
+}
+.popup form .back
+{
+    color: white;
+    height: 50px;
+    width: 120px;
+    border: none;
+    font-weight: 800;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 455px;
+    left: 4px;
+    background-color: rgb(233, 67, 89);
+}
+.popup form .back:hover
+{
+    background-color: rgb(227, 0, 30);
+}
+.popup .pricepopup
+{
+    position: absolute;
+    font-weight: 900;
+    font-size: 30px;
+    right: 10px;
+    bottom: 80px;
+}
